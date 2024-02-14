@@ -2,11 +2,18 @@
 .body2{
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
-    margin-left:16%;
+    margin-left:20%;
     font-size: 20px;;
-    width:20%;
+    width:11.6%;
     height:80vh;
+    position:fixed;
+    border:1px solid darkgray;
+    justify-content: space-between;
+    top:0;
+}
+
+#Showreplies{
+  color:rgb(47, 56, 158);
 }
 
 .container{
@@ -15,14 +22,59 @@
 
 }
 
+.nav1{
+    color:black;
+    text-decoration: none;
+}
+
+.profile{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    padding:5px;
+}
+
+.freeSpeech{
+    border:none;
+    box-shadow:none;
+    resize:none;
+    width:98%;
+    height:150px;
+    
+}
+
+.pic{
+    border-radius: 60px;
+    width:35px;
+    height:35px;
+    background-color: rgb(196, 26, 26);
+    align-self: center;
+    margin-right:10px;
+}
+
+.s1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.icons1{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
 
 .body3{
     display:flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 2.3%;
+    margin-left:33%;
     width:50%;
-    font-size: 20px;;
-
+    font-size: 20px;
+    border:1px solid;
+    border-color: darkgray;
 
 }
 
@@ -40,23 +92,22 @@ body{
 
 
 .for_you{
+    align-self: center;
     position:fixed;
     top:0;
-    left:0;
-    width:100%;
+    left:33.549%;
+    width:741px;
     display:flex;
-    justify-content: space-evenly;
-    
-
-    
-    
+    justify-content: center;
+    border:1px solid darkgray;
 }
 
 .p0{
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-    /* margin: auto; */
+    margin-right:190px;
+    
 }
 
 .p1{
@@ -67,10 +118,22 @@ body{
 
 
 
+.p0:hover{
+    text-decoration: underline;
+}
+
+
+.p1:hover{
+    text-decoration: underline;
+}
+
+
 .menu{
     width:10%;
 }
 
-.logo {
-    align-self: center;
+.logo{
+    position: relative;
+    top:0;
+    left:3%;
 }
